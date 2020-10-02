@@ -1,0 +1,29 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  background: #eceff1;
+}
+
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #01579B;
+    text-align: center;
+    overflow: auto;
+  }
+
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+
+
+

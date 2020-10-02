@@ -1,0 +1,162 @@
+/*selects all */
+* {
+	margin:10px 35px 5px;
+	padding:5px;
+	border:none;
+}
+html {
+	height: 100%;
+}
+input[type="button"] {
+	background-image: url("https://i.imgur.com/s6bQh8K.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+	padding: 20px;
+	border-radius: 50%;
+	width: 200px;
+	height: auto;
+	border: double; 
+	margin: auto;
+	box-shadow: 10px 10px 20px white;
+
+
+}
+
+body {
+	background-color:rgb(128, 128, 128);
+	text-align: center;
+	font-family: 'Raleway', sans-serif
+
+}
+
+h1 {
+	color: silver;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+p {
+	
+	color: white;
+	letter-spacing: 1.5;
+	text-shadow: 2px 2px 20px white, 2px 2px 5px black;
+	margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+
+
+}
+
+
+.div1 {
+	background-image: repeating-radial-gradient(rgba(255, 192, 203, 0.5), rgb(255, 192, 203, 1));
+	border: solid white 1px;
+	border-radius: 35px 50px 30px 50px;
+	width: 500px;
+	height: 350px;
+	margin: auto;
+}
+
+
+
+.one {
+	font-size: 48px;
+	font-weight: lighter;
+	margin: auto;
+	
+
+}
+
+
+.two {
+	font-size: 20px;
+	font-weight: 300;
+	margin: auto;
+	border-top: solid silver 3px
+	
+}
+
+
+.fa-meteor {
+	color:white;
+	animation-name: fly;
+	animation-duration: 5s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+}
+
+
+.fa-space-shuttle {
+	color:rgb(255, 51, 0);
+	transform: rotateZ(60deg) scale(4);
+	position: absolute;
+	animation-name: fly;
+	animation-duration: 5s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+
+}
+
+
+
+
+  /* animation sections */
+
+
+  .wrapper {
+  	width: 100%;
+  	padding:20px;
+  	box-sizing: border-box;
+  }
+
+
+  .circle {
+  	width: 100px;
+  	padding: 50px 0;
+  	line-height: 0;
+  	margin:60px auto;
+  	background: pink;
+  	color: white;
+  	border-radius: 50px;
+  	cursor: pointer;	
+  	/* First number is transistion time second number is delay */
+  	transition: background 1s, transform 1s 1s ease-out;
+  }
+
+  .circle:hover {
+  	background: salmon;
+  	transform: rotate(360deg);
+  }
+
+
+/*// KEYFRAMES //*/
+
+
+
+
+@keyframes fly {
+	0% {transform: translateX(50px)  scale(4);
+		color:white;}
+
+	70% {
+		color:orange;
+	}
+
+	90% {
+		color:salmon;
+	}
+	100% {transform: translateX(100px) scale(2);
+		color: red;}
+
+
+
+@keyframes drive {
+	from {transform: translateX(50px)  scale(2);
+		color:white;}
+	to {transform: translateX(100px) scale(1);
+		color:red;}
+
+
