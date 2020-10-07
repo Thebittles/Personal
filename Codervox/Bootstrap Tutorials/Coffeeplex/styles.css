@@ -2,6 +2,27 @@ html, body {
 	height: 100%;
 }
 
+.navicon {
+	font-size: 24px;
+	color: rgb(87, 73, 66);
+	padding-right: 10px;
+  }
+
+  #background1 {
+    background: url('images/backgrounds/coffee.jpg') center center no-repeat;
+    background-size: cover;
+  	color: white;
+  	height: 100%;
+  	width: 100%;
+  	display: flex;
+  	align-items: center;
+  }
+  
+
+
+
+
+
 
   #message {
     width: 900px;
@@ -21,11 +42,8 @@ html, body {
 
 
 
-.navicon {
-	font-size: 24px;
-	color: rgb(87, 73, 66);
-	padding-right: 10px;
-  }
+
+
 
 #the-footer {
   background: #263238;
@@ -48,14 +66,56 @@ html, body {
   margin: auto;
 }
 
-  #background1 {
-  	background: url('images/backgrounds/coffee.jpg') center center no-repeat;
-  	color: white;
-  	height: 100%;
-  	width: 100%;
-  	display: flex;
-  	align-items: center;
-  }
 
 
 
+/* -----About Page -------*/
+
+#background2{
+  background: url('images/backgrounds/city.jpg') center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.section {
+  padding: 112px 0;
+  overflow: hidden;
+}
+
+
+.section img {
+  height: 300px;
+}
+
+
+.middle {
+  background:  #262f36;
+  color: white;
+}
+
+
+.middle h2 {
+  color: #cfd8dc;
+}
+
+
+
+/*---------------Contact page begin here-----------------*/
+
+
+#background3 {
+  background: url('images/backgrounds/shot.jpg') center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}

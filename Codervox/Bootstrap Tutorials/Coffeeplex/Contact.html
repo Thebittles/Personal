@@ -9,15 +9,175 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <script src="https://kit.fontawesome.com/045f1d3ba1.js" crossorigin="anonymous"></script>
+
     <title>Coffeeplex</title>
   </head>
   <body>
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <i class="fas fa-mug-hot navicon"></i> <a class="navbar-brand" href="index.html">Coffeeplex</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="About.html">About</a>
+      	</li>
+    	<li class="nav-item">
+    	<a class="nav-link" href="Contact.html">Contact</a>
+     	</li>
+    </ul>
+    	<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!-- End of navigation bar -->
+
+
+
+<div id="background3">
+	<div id="message">
+		<h1>Wisdom through adversity. Unity through purpose.</h1>
+		<br>
+		<a href="#" class="btn btn-lg btn-success">Login</a>
+		<a href="#" class="btn btn-lg btn-success">Register</a>
+	</div>
+</div>
+
+
+
+<!-- Forms begins here -->
+
+<div class="container section">
+  <div class="row">
+    <div class="col-sm-6">
+      <form>
+        <div class="form-group">
+          <label for="theName">Name</label>
+          <input type="text" class="form-control" id="theName" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label for="theEmail">Email address</label>
+          <input type="text" class="form-control" id="theEmail" placeholder="Your Email">
+          <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="sharetext">What would you like to share with us?</label>
+          <textarea class="form-control" id="sharetext" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="fileUpload">File Input</label>
+          <input type="file" class="form-control-file" id="fileUpload">
+          <small class="form-text text-muted">You can upload images of PDF files if necessary.</small>
+        </div>
+       <fieldset class="form-group">
+         <legend>Are you a current user?</legend>
+         <div class="form-check">
+           <input type="radio" class="form-check-input" id="yesInput" checked>
+           <label for="yesInput" class="form-check-label">Yes I am</label>
+         </div>
+         <div class="form-check">
+          <input type="radio" class="form-check-input" id="notYet">
+          <label for="notYet" class="form-check-label">Not yet, but I will be soon. I promise.</label>
+        </div>
+        <div class="form-group pt-4">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="robot">
+            <label class="form-check-label" for="robot">
+              I am not a robot.
+            </label>
+          </div>
+        </div>
+      </fieldset>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+      </form>
+    </div>
+    <!--form ends second col begins-->
+    <div class="col-sm-6">
+      <h2>We really want to hear from you.</h2>
+      <p class="lead">
+        Your feedback is important to us. We are continuously improving our products,
+         and your data help us make those improvements.
+      </p>
+      <p>Please be patient with us as we are currently revamping our system.
+        If you don not receive a response within 48 hours, 
+        it means we are too busy to reply to your complaints.
+      </p>
+    </div>
+  </div>
+</div>
 
 
 
 
-  	 <!-- Optional JavaScript -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------------- Footer begins here ------------>
+
+<footer id="the-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6"> <i class="fas fa-mug-hot footericon"></i><br><br></div>
+			<div class="col-md-2">
+				<h6>Product</h6>
+				<ul class="list-unstyled">
+					<li><a href="#">News</a></li>
+					<li><a href="#">Content</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Photos</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<h6>Help</h6>
+				<ul class="list-unstyled">
+					<li><a href="#">Help Center</a></li>
+					<li><a href="#">Privacy Basics</a></li>
+					<li><a href="#">User Agreement</a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<h6>Menu</h6>
+				<ul class="list-unstyled">
+					<li><a href="#">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+			
+
+
+
+
+
+
+        <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
