@@ -260,7 +260,7 @@ setInterval(hello, 5000); */
 
 ////// Returning Values ////////////
 
-
+/* 
 function emotion(feelings) {
     return feelings;
 }
@@ -277,5 +277,34 @@ var times = theNumber(3);
 
 
 function restaurants(place1) {
-    console.log("I " + currentFeeling + " eating at" + place1 + " and I've been there " + times + " times.");
+    console.log("I " + currentFeeling + " eating at " + place1 + " and I've been there " + times + " times.");
 }
+
+restaurants("In-N-Out"); */
+
+///////////////////
+
+
+
+
+
+/////////////// Call Back Functions //////////////////////
+
+/* 
+function theHELLO(name, question) {
+    alert("Hello " + name + "!");
+    question();
+}
+
+function help(){
+    alert("How can I assist you?");
+}
+
+theHELLO('Garfield', help) //If you were to put help() it would run that as first function.
+ */
+
+
+
+
+
+/////////////////////    Anonymous Functions   ////////////
