@@ -308,3 +308,8 @@ theHELLO('Garfield', help) //If you were to put help() it would run that as firs
 
 
 /////////////////////    Anonymous Functions   ////////////
+
+/* 
+setTimeout(function() {
+    alert('I love chocolate chip cookies!');
+}, 3000); */
