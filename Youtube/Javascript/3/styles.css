@@ -1,0 +1,44 @@
+
+
+
+.slider {
+    margin: 50px auto;
+    width: 50%;
+}
+
+
+.img-box img {
+    width: 100%;
+}
+
+
+
+
+
+/* Buttons Css */
+.btn{
+    border: none;
+    outline: none;
+    background: gray;
+    padding: 10px 30px;
+    color: white;
+    cursor: pointer;
+    margin: 10px auto;
+    text-align: center;
+    width: 100px;
+    border-radius: 10px;
+    letter-spacing: 1.5px;
+}
+
+
+.btn:hover{
+    background: darkgrey;
+}
+.btn-right {
+    float: right;
+}
+
+/* button css end */
+
+
+
