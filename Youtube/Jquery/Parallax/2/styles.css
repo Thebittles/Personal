@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: poppins;
+    text-align: center;
+}
+
+
+.section-one {
+    background-image: url(img/1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.section-one h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.section-one p{
+    font-size: 20px;
+    
+}
+
+
+
+.section-two {
+    background-image: url(img/2.jpg);
+    
+}
+
+
+.p-225 {
+    padding: 225px 0;
+}
+
+
+.p-125 {
+    padding: 125px 0;
+}
+
+
+.btn-area {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border: solid 2px #fff;
+    padding: 10px 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
