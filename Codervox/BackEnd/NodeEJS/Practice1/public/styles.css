@@ -1,0 +1,21 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    color: olivedrab;
+
+}
+
+
+div {
+    height: 400px;
+    width: 400px;
+    margin: 50px auto;
+    border: solid 1px black;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    padding: 25px 25px;
+}
